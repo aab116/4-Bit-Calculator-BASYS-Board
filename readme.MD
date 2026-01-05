@@ -55,23 +55,3 @@ Division supports **up to 2 decimal places** (e.g., `2.33`) by scaling the numer
 6. Program the Basys-3 board
 
 ---
-
-## File Overview
-- `src/project_mydecoder.vhd` — top entity: inputs, FSM, output display logic
-- `src/sevenseg_decoder.vhd` — digit-to-7seg mapping
-- `src/clock_divider.vhd` — refresh counter / digit multiplexing
-- `constraints/basys3.xdc` — Basys-3 pin mapping
-- `docs/` — report + diagrams + screenshots
-
----
-
-## Common Issues
-- **Display looks blank** → ensure `sw[4]` is ON
-- **Wrong digits / flicker** → verify refresh clock divider is correct
-- **Buttons bounce** → optionally add debouncing
-
----
-
-## License
-MIT (or choose another). See `LICENSE`.
-
