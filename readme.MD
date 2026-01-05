@@ -45,7 +45,7 @@ Division supports **up to 2 decimal places** (e.g., `2.33`) by scaling the numer
 
 ## Build & Program (Vivado)
 1. Open **Vivado** → Create Project (RTL)
-2. Add VHDL source files from `src/`
+2. Add VHDL source files 
 3. Add constraints file from `constraints/basys3.xdc`
 4. Set top module: `project_mydecoder`
 5. Run:
