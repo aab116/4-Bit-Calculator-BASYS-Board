@@ -56,13 +56,6 @@ Division supports **up to 2 decimal places** (e.g., `2.33`) by scaling the numer
 
 ---
 
-## Demo
-Add a demo gif/video here:
-
-![Demo](docs/demo.gif)
-
----
-
 ## File Overview
 - `src/project_mydecoder.vhd` — top entity: inputs, FSM, output display logic
 - `src/sevenseg_decoder.vhd` — digit-to-7seg mapping
